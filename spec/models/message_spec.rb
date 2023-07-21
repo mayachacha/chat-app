@@ -37,5 +37,5 @@ RSpec.describe Message, type: :model do
         expect(@message.errors.full_messages).to include('User must exist')
       end
     end
-  end
+  end…+++++
 end
